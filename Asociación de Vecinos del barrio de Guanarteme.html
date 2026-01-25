@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Club de Lectura Guanarteme</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Asociación de Vecinos del barrio de Guanarteme.css">
+</head>
+<body id="top">
+  <header class="site-header">
+    <div class="branding">
+      <h1>Club de Lectura Guanarteme</h1>
+      <p class="lema">"Vida antes que muerte. Fuerza antes que debilidad. Viaje antes que destino."</p>
+    </div>
+  </header>
+
+  <nav class="main-nav" aria-label="Navegación principal">
+    <ul>
+      <li><a href="#proxima-reunion">Próxima reunión</a></li>
+      <li><a href="#resenas">Reseñas</a></li>
+      <li><a href="#calendario">Calendario</a></li>
+      <li><a href="#inscripcion">Inscripción</a></li>
+      <li><a href="#recursos">Consejos</a></li>
+      <li><a href="#privacidad">Privacidad</a></li>
+    </ul>
+  </nav>
+
+  <main class="layout-main">
+
+    <section id="proxima-reunion" class="section-card">
+      <header>
+        <h2>Próxima reunión</h2>
+      </header>
+      <article class="proxima-grid">
+        <figure>
+          <img src="Screenshot_6.png" alt="El Camino de los reyes">
+          <figcaption>Libro del mes: “El Camino de los Reyes”</figcaption>
+        </figure>
+        <div>
+          <h3>Próxima reunión:</h3>
+          <p><strong>Fecha:</strong> 29 de Enero, 18:00</p>
+          <p><strong>Lugar:</strong> Sede Asociación de Vecinos de Guanarteme</p>
+          <p><strong>Libro:</strong> “El Camino de los Reyes”, de Brandon Sanderson.</p>
+          <h4>Agenda de la reunión</h4>
+          <ul>
+            <li>Bienvenida y presentación de nuevos miembros</li>
+            <li>Debate guiado sobre el libro</li>
+            <li>Ronda libre de opiniones</li>
+            <li>Propuestas sobre el orden de próximas lecturas</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+
+    <section aria-label="Galería de libros del club" class="section-card">
+      <header>
+        <h2>Sección de Sanderson</h2>
+      </header>
+
+      <div class="carousel">
+
+        <input type="radio" name="slides" id="slide1" checked>
+        <input type="radio" name="slides" id="slide2">
+        <input type="radio" name="slides" id="slide3">
+
+        <div class="carousel-inner">
+          <figure class="carousel-item">
+            <img src="Screenshot_3.png" alt="El Imperio Final">
+            <figcaption>El Imperio Final</figcaption>
+          </figure>
+          <figure class="carousel-item">
+            <img src="Screenshot_4.png" alt="El  Pozo de la Ascensión">
+            <figcaption>El  Pozo de la Ascensión</figcaption>
+          </figure>
+          <figure class="carousel-item">
+            <img src="Screenshot_5.png" alt="El Heroe de las eras">
+            <figcaption>El Heroe de las eras</figcaption>
+          </figure>
+        </div>
+
+
+        <div class="carousel-indicators" aria-hidden="true">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="resenas" class="section-card">
+      <header>
+        <h2>Reseñas y recomendaciones</h2>
+      </header>
+
+      <article class="reseña">
+        <h3>El Aliento de los Dioses.  Brandon Sanderson – Juan Gómez</h3>
+        <p>
+          Un mundo donde el aliento es poder y cada decisión puede cambiar el destino de reinos enteros.
+        </p>
+      </article>
+
+      <article class="reseña">
+        <h3>Elantris.  Brandon Sanderson – Ana Merino</h3>
+        <p>
+          Una historia de magia caída y ciudades malditas, con personajes que luchan por recuperar la esperanza.
+        </p>
+      </article>
+
+      <article class="reseña">
+        <h3>Yumi y el pintor de pesadillas.  Brandon Sanderson – Santiago Lorenzo</h3>
+        <p>
+          Una historia luminosa y emotiva donde dos personas unidas por la magia descubren cómo transformar el miedo en esperanza.
+        </p>
+      </article>
+    </section>
+
+
+    <section id="calendario" class="section-card">
+      <header>
+        <h2>Calendario de próximas reuniones</h2>
+      </header>
+
+      <table>
+        <caption>Próximos eventos del Club de Lectura</caption>
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Libro</th>
+            <th>Autor</th>
+            <th>Lugar</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>29/01/2026</td>
+            <td>La biblioteca invisible</td>
+            <td>Brandon Sanderson</td>
+            <td>Sede vecinal</td>
+          </tr>
+          <tr>
+            <td>26/03/2026</td>
+            <td>Palabras radiantes</td>
+            <td>Brandon Sanderson</td>
+            <td>Sede vecinal</td>
+          </tr>
+          <tr>
+            <td>26/04/2026</td>
+            <td>Juramentada</td>
+            <td>Brandon Sanderson</td>
+            <td>Sede vecinal</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+
+    <section id="inscripcion" class="section-card">
+      <header>
+        <h2>Inscripción a los eventos</h2>
+        <p>Rellena el formulario para unirte a las próximas reuniones.</p> 
+      </header>
+
+      <form action="https://webhook.site/3f8d8420-9304-438c-bca2-fc3f39a75c2e" method="post" enctype="multipart/form-data">
+        <fieldset>
+          <legend>Datos personales</legend>
+
+          <div class="form-group">
+            <label for="nombre">Nombre completo</label>
+            <input id="nombre" name="nombre" type="text" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Correo electrónico</label>
+            <input id="email" name="email" type="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="telefono">Teléfono</label>
+            <input id="telefono" name="telefono" type="tel" required>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Preferencias lectoras</legend>
+
+          <div class="form-group">
+            <label for="genero">Género literario preferido</label>
+            <select id="genero" name="genero" required>
+              <option value="">Selecciona una opción</option>
+              <option value="novela">Novela contemporánea</option>
+              <option value="clasicos">Clásicos</option>
+              <option value="fantasia">Fantasía / Ciencia ficción</option>
+              <option value="no-ficcion">No ficción / Ensayo</option>
+              <option value="poesia">Poesía</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <span>Horario preferido</span>
+            <div class="options-inline">
+              <label>
+                <input type="radio" name="horario" value="tarde" required>
+                Tardes (18:00–20:00)
+              </label>
+              <label>
+                <input type="radio" name="horario" value="manana">
+                Mañanas (10:00–12:00)
+              </label>
+              <label>
+                <input type="radio" name="horario" value="fin-de-semana">
+                Fines de semana
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <span>Preferencias de contacto</span>
+            <div class="options-inline">
+              <label>
+                <input type="checkbox" name="contacto_email" value="email">
+                Email
+              </label>
+              <label>
+                <input type="checkbox" name="contacto_telefono" value="telefono">
+                Teléfono
+              </label>
+              <label>
+                <input type="checkbox" name="contacto_whatsapp" value="whatsapp">
+                WhatsApp
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="comentarios">Comentarios o expectativas</label>
+            <textarea id="comentarios" name="comentarios" rows="4" placeholder="Cuéntanos qué te gustaría encontrar en el club."></textarea>
+          </div>
+        </fieldset>
+
+        <button type="submit" class="btn-primary">Enviar inscripción</button>
+      </form>
+    </section>
+
+
+    <aside id="recursos" class="section-card aside-card">
+      <h2>Consejos y normas del club</h2>
+      <ul>
+        <li>Llega con unos minutos de antelación para acomodarte.</li>
+        <li>Respeta los turnos de palabra y las opiniones distintas.</li>
+        <li>No es obligatorio haber terminado el libro, pero se recomienda.</li>
+        <li>Trae tus anotaciones o pasajes favoritos para compartir.</li>
+        <li>Consulta el calendario para proponer nuevas lecturas.</li>
+      </ul>
+
+      <h3>Enlaces útiles</h3>
+      <ul>
+        <li><a href="#calendario">Ver calendario de reuniones</a></li>
+      </ul>https://webhook.site/3f8d8420-9304-438c-bca2-fc3f39a75c2e
+    </aside>
+
+    <section id="privacidad" class="section-card">
+      <header>
+        <h2>Política de privacidad del Club de Lectura</h2>
+      </header>
+      <p>
+        Los datos recogidos en el formulario se utilizan exclusivamente para la gestión de las
+        actividades del Club de Lectura Comunitario de Guanarteme: envío de recordatorios,
+        organización de grupos y comunicación de cambios en las reuniones.
+      </p>
+      <p>
+        Puedes solicitar la modificación o eliminación de tus datos escribiendo a
+        <a href="mailto:clublectura@guanarteme.org">clublectura@guanarteme.org</a>.
+        No se cederán tus datos a terceros ni se utilizarán con fines comerciales.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Club de Lectura Guanarteme</p>
+    <p>
+      <a href="#top">Volver arriba</a>
+    </p>
+    <ul class="social-links">
+      <li><a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+      <li><a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+      <li><a href="https://x.com" target="_blank" rel="noopener">X</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
